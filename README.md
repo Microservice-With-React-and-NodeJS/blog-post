@@ -33,3 +33,5 @@ Kubernetes is a tool to run a bunch of different container togather
 - kubernetes then
   - creates these containers that will run our programs
   - it will handle communiations between the containers too
+
+to be continued...
