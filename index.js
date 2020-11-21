@@ -30,7 +30,7 @@ app.post("/posts", async (req, res) => {
   //post req to axios event broker, second argument is the data, it has two properties: type :what type of event it is and second is data property.
   //event can have any sturcture
   //this is an async reqst, making the netwrk req
-  await axios.post("http://localhost:4005/events", {
+  await axios.post("http://event-bus-srv:4005/events", {
     type: "PostCreated",
     data: {
       id,
